@@ -53,9 +53,9 @@ return 0;
 
 void relleno(int givenNum,float **m)
 {
-    for(int i=0;i<givenNum+2;i++)
+    for(int j=0;j<givenNum+2;j++)
     {
-        for(int j=0;j<givenNum;j++)
+        for(int i=0;i<givenNum;i++)
         {
             m[i][j] = i+j;
         }
